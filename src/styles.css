@@ -1,0 +1,83 @@
+body {
+  background: radial-gradient(
+    1091px at 106.5% 111.5%,
+    rgb(250, 246, 213) 0.1%,
+    rgb(218, 147, 93) 42.2%,
+    rgb(137, 86, 67) 74.3%,
+    rgb(67, 39, 39) 100.2%
+  );
+
+  margin: 30px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 20px 20px 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+h1,
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #a45133;
+  font-size: 40px;
+}
+h2 {
+  padding: 3px 0;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  max-width: 90%;
+}
+p {
+  text-align: center;
+  line-height: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.wikipedia {
+  text-decoration: none;
+  color: #f2bc77;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wikipedia:hover {
+  text-decoration: underline;
+  color: #a45133;
+}
+button {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a45133;
+  background: #f2bc77;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  color: #f2bc77;
+  background: #a45133;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  font-size: smaller;
+  font-family: monospace;
+  line-height: 15px;
+}
+.creator {
+  color: #5e6769;
+}
